@@ -1,0 +1,204 @@
+<html>
+    <head>
+        <title>CASE STUDY</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h2>CASE STUDY BETWEEN GOOGLE LENS AND MOBILNET</h1>
+        <hr>
+        <img width="200px" src="http://en.wikipedia.org/wiki/Special:FilePath/Logo_of_Google_Lens.svg">
+        <hr>
+        <h3>VS</h2>
+        <hr>
+        <h4>Mobilnet</h3>
+            <hr>
+            <div id="result_1" class="col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b class="white1">Test1 - </b>
+                <img width="200" height="250" src="https://i5.walmartimages.com/asr/79ea13e6-d982-4c1c-a63f-01bf2fedd2f9_1.5f8e9c896734b50454d9cf7b87177c0b.jpeg">
+            </li>
+            <h5>Output on: <b>Google Lens</b>-<span>Water Bottle</span></h5>
+            <hr>
+            <h5>Output on: <b>Mobilenet</b>-<span>Punch Bag</span></h5>
+            <div class="mini_result" class="col-xs-12">
+                <h4>Result : </h4>
+                <hr>
+                <h4>Google Lens is more accurate</h4>
+            </div>
+            <hr>
+            </div>
+            <br>
+            <hr>
+            <hr>
+            <div id="result_2" class="col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b class="white1">Test2 - </b>
+                <img width="300" height="250" src="https://www.dekhnews.com/wp-content/uploads/2017/11/Tata-Nexon.jpg">
+            </li>
+            <h5>Output on: <b>Google Lens</b>-<span>   TATA NEXON</span></h5>
+            <hr>
+            <h5>Output on: <b>Mobilenet</b>-<span>     MiniVan</span></h5>
+            <hr>
+            <div class="mini_result" class="col-xs-12">
+                <h4>Result : </h4>
+                <hr>
+                <h4>Google lens is more accurate</h4>
+            </div>
+            </div>
+            <br>
+            <hr>
+            <hr>
+            <hr>
+            <div id="result_3" class="col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b class="white1">Test3 - </b>
+                <img width="300" height="250" src="https://img.cadnav.com/allimg/151229/cadnav-151229142357-50.jpg">
+            </li>
+            <h5>Output on: <b>Google Lens</b>-<span>Apple</span></h5>
+            <hr>
+            <h5>Output on: <b>Mobilenet</b>-<span>Punch Bag</span></h5>
+            <hr>
+            <div class="mini_result" class="col-xs-12">
+                <h4>Result : </h4>
+                <hr>
+                <h4>Google lens is more accurate</h4>
+            </div>
+            </div>
+            <hr>
+            <hr>
+            <hr>
+            <div id="result_4" class="col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b class="white1">Test4 - </b>
+                <img width="300" height="250" src="https://tse1.mm.bing.net/th?id=OIP.H2CwKi-83nBtN5IT4rTrKwHaHa&pid=Api&P=0&w=174&h=174">
+            </li>
+            <h5>Output on: <b>Google Lens</b>-<span>Computer Headset</span></h5>
+            <hr>
+            <h5>Output on: <b>Mobilenet</b>-<span>Microphone ,Mike</span></h5>
+            <hr>
+            <div class="mini_result" class="col-xs-12">
+                <h4>Result : </h4>
+                <hr>
+                <h4>Google Lens is more accurate</h4>
+            </div>
+            </div>
+            <hr>
+            <hr>
+            <hr>
+            <div id="result_5" class=" col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b class="white1">Test5 - </b>
+                <img width="300" height="250" src="http://www.makeit-loveit.com/wp-content/uploads/2013/01/IMG_2974.jpg">
+            </li>
+            <h5>Output on: <b>Google Lens</b>-<span>Pillowcase</span></h5>
+            <hr>
+            <h5>Output on: <b>Mobilenet</b>-<span>Pillow</span></h5>
+            <hr>
+            <div class="mini_result" class="col-xs-12">
+                <h4>Result : </h4>
+                <hr>
+                <h4>Both are accurate</h4>
+            </div>
+            </div>
+            <hr>
+            <br>
+            <div id="result_6" class=" col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b class="white1">Test6 - </b>
+                <img width="300" height="250" src="https://5.imimg.com/data5/FU/XA/GLADMIN-48483781/hero-mig-26t-rs-bicycle-500x500.png">
+            </li>
+            <h5>Output on: <b>Google Lens</b>-<span>MG Cycle</span></h5>
+            <hr>
+            <h5>Output on: <b>Mobilenet</b>-<span>Bycycle-build-for-two</span></h5>
+            <hr>
+            <div class="mini_result" class="col-xs-12">
+                <h4>Result : </h4>
+                <hr>
+                <h4>Google Lens is more accurate</h4>
+            </div>
+            </div>
+            <br>
+            <hr>
+            <div id="result_7" class=" col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b class="white1">Test7 - </b>
+                <img width="300" height="250" src="https://tse1.mm.bing.net/th?id=OIP.kvSzV6Wj84hH9p3JQm2FpQHaFC&pid=Api&P=0&w=255&h=173">
+            </li>
+            <h5>Output on: <b>Google Lens</b>-<span>Laptop</span></h5>
+            <hr>
+            <h5>Output on: <b>Mobilenet</b>-<span>Destop Computer</span></h5>
+            <hr>
+            <div class="mini_result" class="col-xs-12">
+                <h4>Result : </h4>
+                <hr>
+                <h4>Google Lens is more accurate</h4>
+            </div>
+            </div>
+            <hr>
+            <br>
+            <div id="result_8" class=" col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b class="white1">Test8 - </b>
+                <img width="300" height="250" src="https://s.yimg.com/aah/simplywallclocks/ashby-wall-clock-30-by-howard-miller-4.gif">
+            </li>
+            <h5>Output on: <b>Google Lens</b>-<span>Wall Clock</span></h5>
+            <hr>
+            <h5>Output on: <b>Mobilenet</b>-<span>Analog Clock</span></h5>
+            <hr>
+            <div class="mini_result" class="col-xs-12">
+                <h4>Result : </h4>
+                <hr>
+                <h4>Google Lens is more accurate</h4>
+            </div>
+            </div>
+            <hr>
+            <br>
+            <div id="result_9" class=" col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b class="white1">Test9 - </b>
+                <img width="300" height="250" src="https://tse2.mm.bing.net/th?id=OIP.VwS3eNJ49dCNckLj76_yowHaHa&pid=Api&P=0&w=173&h=173">
+            </li>
+            <h5>Output on: <b>Google Lens</b>-<span>Photo Print</span></h5>
+            <hr>
+            <h5>Output on: <b>Mobilenet</b>-<span>Wallet ,NOTECASE</span></h5>
+            <hr>
+            <div class="mini_result" class="col-xs-12">
+                <h4>Result : </h4>
+                <hr>
+                <h4>Google Lens is more accurate</h4>
+            </div>
+            </div>
+            <hr>
+            <br>
+            <div id="result_10" class=" col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b class="white1">Test10 - </b>
+                <img width="300" height="250" src="https://i5.walmartimages.com/asr/90e77352-50cc-4742-a9c4-3c4588a7a5b4.f53ff3a8ed05e4991e200398668aa45d.jpeg">
+            </li>
+            <h5>Output on: <b>Google Lens</b>-<span>Office Chair</span></h5>
+            <hr>
+            <h5>Output on: <b>Mobilenet</b>-<span>Rocking Chair</span></h5>
+            <hr>
+            <div class="mini_result" class="col-xs-12">
+                <h4>Result : </h4>
+                <hr>
+                <h4>Google Lens is more accurate</h4>
+            </div>
+            </div>
+            <hr>
+            <br>
+            <div class="mini_result" class=""col-xs-12>
+                <p>I have tested 10 images. Google Lens is more accurate. </p>
+            </div>
+       
+
+    </body>
+</html>

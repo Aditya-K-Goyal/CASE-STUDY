@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: rgb(255, 132, 202);
+}
+#result_5{
+    background-color: rgb(233, 132, 0);
+    border: 0ch;
+}
+#result_1{
+    background-color:rgb(255, 125, 125);
+    border: 0ch;
+}
+#result_2{
+    background-color: rgb(251, 235, 129);
+    border: 0ch;
+}
+#result_3{
+    background-color: rgb(255, 193, 111);
+    border: 0ch;
+}
+#result_4{
+    background-color: rgb(251, 147, 98);
+    border: 0ch;
+}
+#result_6{
+    background-color: rgb(255, 93, 91);
+}
+#result_7{
+    background-color: rgb(122, 193, 255);
+}
+#result_8{
+    background-color: rgb(181, 102, 255);
+}
+#result_9{
+    background-color: rgb(106, 106, 255);
+}
+#result_10{
+    background-color: rgb(255, 176, 72);
+}
